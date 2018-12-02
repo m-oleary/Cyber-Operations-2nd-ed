@@ -1,4 +1,4 @@
-# PowerShell script that loops through all of the users and computers on a domain and sets the ACL on the user's
+# PowerShell script that loops through all of the users and computers on a domain and sets auditing rules on the user's
 # startup directory to allow auditing for file creation. Note that this script does not handle errors, so if
 # the system is down, nothing happens.
 

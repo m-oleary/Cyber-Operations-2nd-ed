@@ -1,5 +1,5 @@
-# PowerShell script that loops through all of the users on a domain and then writes out the content
-# of that user's startup folder.
+# PowerShell script that loops through all of the users and computers on a domain and then writes out the content
+# of that user's startup folder on that computer.
 
 foreach($account in Get-ADUser -Filter * ){
    $username = $account.SamAccountName
