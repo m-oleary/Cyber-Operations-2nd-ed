@@ -1,6 +1,6 @@
 #!/bin/python
 
-# Script to send packets on UDP/5355 to see if other systems on the network respond.
+# Script to send packets on UDP/5355 to the multicast address 224.0.0.252 see if other systems on the network respond.
 # Filter assumes that the sending system has the address 10.0.2.95; this should be modified.
 
 
